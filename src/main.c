@@ -1,3 +1,9 @@
-int main(void) {
-	return 0;
+#include "main.h"
+
+void SystemInit(void){
+	
+}
+
+void __main(void){
+	__asm("NOP");
 }
